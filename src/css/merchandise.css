@@ -1,0 +1,60 @@
+@font-face {
+  font-family: oxanium;
+  src: url("../fonts/Oxanium-Medium.ttf");
+}
+
+@font-face {
+  font-family: oxanium-bold;
+  src: url("../fonts/Oxanium-Bold.ttf");
+  font-weight: bold;
+}
+
+header a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+main {
+  background-color: #1c1c1c;
+  padding: 1rem;
+}
+
+.products {
+  display: flexbox;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #ffffff solid;
+  margin: 1 rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.product-info {
+  padding: 1rem;
+  margin: 0;
+  max-width: 400px;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.img-large {
+  max-width: 100%;
+}
+
+.title {
+  color: #1c1c1c !important;
+}
+
+.img-thumbnail {
+  height: 80px;
+}
+
